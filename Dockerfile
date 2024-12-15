@@ -10,4 +10,4 @@ RUN npm install
 
 ENTRYPOINT [ "npm" ]
 
-# docker run --rm --network=host kvinnika/api-tests npm run BOOKS BOOKS_DEV
+# docker run --rm --network=host kvinnika/api-tests npm run greetings greetings_dev
